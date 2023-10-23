@@ -1,0 +1,46 @@
+.app{
+    /* Al momento de traducir el html css y js la carpeta public desaparece asi que es opcional poner public en la ruta */
+    background-image: url('../fondo1.jpg');
+    background-size: cover;
+     /*que cubra todo */
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app__title{
+    position: absolute;
+    text-align: center;
+    top:24%;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+.app__card{
+    background-color: #fff8;
+    padding: 1.5em 2em;
+    border-radius: 0.8em;
+    width:100% ;
+    max-width: 600px;
+    box-shadow: rgb(53, 58, 85) 10px 10px 10px;
+    
+}
+.app__phrase{
+    font-weight: 380;
+    font-size: larger;
+}
+.app__btn{
+    display:block;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 0.8em 2em;
+    font-size: 1.1 rem;
+    border-radius: 2em;
+    transition: font-size 100ms ease;
+
+}
+.app__btn:hover{
+    font-size: 1.1rem;
+}
+

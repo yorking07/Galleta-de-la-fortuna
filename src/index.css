@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap');
+/* --- RESET ---  */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  margin: 0;
+}
+h1, h2, h3, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* El button no hereda los font family a no ser que lo especifiques */
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+}
